@@ -1,0 +1,13 @@
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/petshop
+        username: root
+        password: ${MYSQL_ROOT_PASSWORD:root}
+    jpa:
+       show-sql: true 
+    mail:
+        host: sandbox.smtp.mailtrap.io
+        port: 2525
+        password: 8ac3dbe9e55a66
+        username: d213456ba79071
